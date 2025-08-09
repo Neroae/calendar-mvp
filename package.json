@@ -1,0 +1,28 @@
+{
+  "name": "calendar-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.23.0",
+    "clsx": "^1.2.1",
+    "date-fns": "^3.1.0",
+    "next": "^14.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.3",
+    "@types/react": "^18.2.21",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.2.2"
+  }
+}
